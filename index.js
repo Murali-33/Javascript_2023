@@ -124,15 +124,17 @@ const fruits = ['banana','apple','mango','gova'];
 // console.log(highNum(num))
 
 //Example 2
-const findMax =(numbers)=>{
-  let result = numbers[0]
-  //for loop
-  for(num of numbers){
-    if(num > result){
-      result = num
-    }
-  }
-  return result
-}
-// const numbers =[1,2,3,4,5,6,7,10000]
-console.log(findMax([1,2,9,8,7,6]));
+// const findMax =(numbers)=>{
+//   let result = numbers[0]
+//   //for loop
+//   for(num of numbers){
+//     if(num > result){
+//       result = num
+//     }
+//   }
+//   return result
+// }
+// // const numbers =[1,2,3,4,5,6,7,10000]
+// console.log(findMax([1,2,9,8,7,6]));
+
+
