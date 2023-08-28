@@ -55,15 +55,84 @@ const fruits = ['banana','apple','mango','gova'];
 //   console.log(i,fruits[i]);
 // }
 
-for(let fruit of fruits){
-  console.log(fruit)
-}
+// for(let fruit of fruits){
+//   console.log(fruit)
+// }
 
-const number = [1,2,3,4,5,6,7,8,9];
-const result =[];
-for(let num of number){
+// const number = [1,2,3,4,5,6,7,8,9];
+// const result =[];
+// for(let num of number){
   // console.log(num *2)
   // result.push(num*2);
  
+// }
+// console.log(double([1,2,3,44,5]));
+ 
+
+// count the letters in the string
+// const countLetters =() =>{
+//   let result =0;
+//   const letter = 'Hi , How are you ?'
+//   //ge the index of the letters
+//   //let (name of letter)
+//   for(name in letter){
+//     // console.log(name)
+//     result = {Result:name};
+//     console.log(letter.length);
+//   }
+//   return result;
+// }
+// console.log(countLetters());
+
+//sum of the array
+// let sumArray =(numbers)=>{
+//   let result = 0;
+//   //for loop
+//   for(const num of numbers){
+//    console.log(num) 
+//    result = result+num;
+//   }
+//   return {result:result}
+// }
+// const numbers = [1,2,3,4,5,6,7];
+// console.log(sumArray (numbers));
+
+//Eample 1
+
+// const newsumArray = (numbers)=>{
+//   let result = 0;
+//   for(let sum of numbers){
+//     result = result+sum;
+//   }
+//   return result;
+// }
+// numbers=[3,4,5,6,7,8,9,10]
+// console.log(newsumArray(numbers))
+
+//find the highest number of the array
+// const highNum=(num)=>{
+//   let result = num[0]
+//   //for loop
+//   for(numbers of num){
+//     if(numbers > result){
+//       result= numbers
+//     }
+//   }
+//   return result
+// }
+// const num =[1,2,3,4,5,6,7,8,9,567]
+// console.log(highNum(num))
+
+//Example 2
+const findMax =(numbers)=>{
+  let result = numbers[0]
+  //for loop
+  for(num of numbers){
+    if(num > result){
+      result = num
+    }
+  }
+  return result
 }
-console.log(double([1,2,3,44,5]));
+// const numbers =[1,2,3,4,5,6,7,10000]
+console.log(findMax([1,2,9,8,7,6]));
