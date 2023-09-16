@@ -68,4 +68,4 @@ add(3,7)
 
 .catch((err)=>{
   window.alert(err)
-})
+});
