@@ -137,4 +137,10 @@ const fruits = ['banana','apple','mango','gova'];
 // // const numbers =[1,2,3,4,5,6,7,10000]
 // console.log(findMax([1,2,9,8,7,6]));
 
+ 
+
+
+
+
+
 
